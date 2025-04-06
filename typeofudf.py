@@ -147,26 +147,26 @@ fn5(fn='Abc', ln='Def', name="Yash", demo="Hemil")
 # It has various uses in particular fields of programming, besides other types of expressions in functions.
 
 #A lambda function can take any number of arguments, but can only have one expression.
-"""
-to execute your single line business logic
-"""
-square = lambda x: x * x
-print(square(15))
+# """
+# to execute your single line business logic
+# """
+# square = lambda x: x * x
+# print(square(15))
 
-addition = lambda x, y: x + y
-print(addition(15, 25))
+# addition = lambda x, y: x + y
+# print(addition(15, 25))
 
-old_list = [1, 2, 3, 4, 5]
-ls = []
-for i in old_list:
-    ls.append(i * 2)
+# old_list = [1, 2, 3, 4, 5]
+# ls = []
+# for i in old_list:
+#     ls.append(i * 2)
 
-new_list = list(map(lambda x: x * 2, old_list))
-print(new_list)
+# new_list = list(map(lambda x: x * 2, old_list))
+# print(new_list)
 
-old_list = [1, 2, 3, 4, 5]
-new_list = list(filter(lambda x: (x % 2 == 0), old_list))
-print(new_list)
+# old_list = [1, 2, 3, 4, 5]
+# new_list = list(filter(lambda x: (x % 2 == 0), old_list))
+# print(new_list)
 
 
 
