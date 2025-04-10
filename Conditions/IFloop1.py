@@ -1,9 +1,9 @@
-var1 = True
+# var1 = True
 
-if var1:
-    print(var1)
-else:
-    print(var1)
+# if var1:
+#     print(var1)
+# else:
+#     print(var1)
 
 # how to input in python
 # by default input function will return string
